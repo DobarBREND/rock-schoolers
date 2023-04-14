@@ -13,7 +13,30 @@
     --Roboto: "Roboto", sans-serif;
 }
 
+@media screen and (max-width: 479px) {
+    .header_top_info {
+        display: none;
+    }
+
+    .hero_title {
+        margin-top: 35vh;
+    }
+
+    .navbar_brand img {
+        display: none;
+    }
+
+    .navbar_brand span {
+        padding-left: 25vw;
+    }
+}
+
 @media screen and (min-width: 480px) {
+    
+    .hero_title {
+        margin-top: 30vh;
+    }
+    
     .header_top_info .row div:first-child span {
         display: inline-block !important;
         margin-right: 1.5rem;
@@ -195,6 +218,13 @@
         margin-top: 2rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero_title {
+        margin-top: -5vh;
+    }
+}
+
 
 @media screen and (min-width: 1200px) {
     .hero_title {
